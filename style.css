@@ -27,7 +27,7 @@
     font-weight: bold;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 8px 25px;
@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: column;
     /* height: 780px; */
-    
+
     height: 591px;
 
     justify-content: center;
@@ -65,7 +65,7 @@
     background: url('background.jpg') no-repeat center center/cover;
     height: 650px;
     width: 100%;
-z-index:-1;
+    z-index: -1;
     opacity: .9;
 }
 
@@ -83,11 +83,12 @@ z-index:-1;
 
 }
 
-.main h1{
-    
+.main h1 {
+
     margin-right: 73px;
 
 }
+
 .main p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex-direction: row;
@@ -95,7 +96,7 @@ z-index:-1;
     font-size: 0.8rem;
     /* font-weight: 1px;; */
     width: 500px;
-    font-style:normal ;
+    font-style: normal;
     /* top: 25%; */
     margin: 10px 20px 0 70%;
 }
@@ -108,7 +109,7 @@ z-index:-1;
     /* margin-top: 250px;
     margin-bottom: 320px;
     margin-left: 160px; */
-margin:100px 0 100px 150px ;
+    margin: 100px 0 100px 150px;
 
 }
 
@@ -157,40 +158,41 @@ margin:100px 0 100px 150px ;
 
 /* section*/
 
- #about {
+#about {
     display: flex;
-  
+
     height: 800px;
     width: 100%;
     justify-content: center;
     text-align: center;
     color: rgb(0, 0, 0);
-     margin: 0 0  350px;
+    margin: 0 0  350px;
 }
 
- .head h1{
-    display:flex;
+.head {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* padding-top: 20px;*/
+   /* margin-bottom: 200px;  */
+   margin-top: 130px;
+   /* margin-left: 200px; */
+
+
+}
+
+.main2 {
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
-   margin: 100px 500px 0 0;
- 
-
+    /* padding-top: 200px; */
+    /* margin: 10px 250px 0 0; */
 }
-.main2{
-margin: 100px 0 0 550px;
-text-align: left;
 
-}
- .main2 p{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-   margin: 10px 250px 0 0;
- }
- img{
-margin-top: 250px;
+img {
+    margin-left: 160px;
+    margin-top: 250px;
     width: 370px;
-border-radius: 10px;
- }
+    border-radius: 10px;
+}
