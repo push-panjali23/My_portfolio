@@ -68,11 +68,11 @@ box-shadow: 0px 0px 10px rgba(255, 252, 0, 0.8);
 }
 .hero {
   width: 90%;
-  max-width: 1200px;
+ max-width: 1200px;
   padding: 80px 20px;
-  background: rgba(0, 0, 0, 0.66);
+  background: rgba(0, 0, 0, 0.44);
   border-radius: 20px;
-  box-shadow: 0px 10px 30px rgba(253, 253, 248, 0.2);
+  box-shadow: 0px 10px 30px rgba(246, 197, 5, 0.15);
   transition: transform 0.3s ease-in-out;
 }
 .hero:hover {
